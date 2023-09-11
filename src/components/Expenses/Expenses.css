@@ -26,4 +26,5 @@ hr {
 .last-month__percentage {
     text-align: right;
     color: var(--clr-dark-brown);
+    font-weight: var(--fw-bold);
 }
