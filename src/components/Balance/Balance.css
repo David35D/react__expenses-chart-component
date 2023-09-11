@@ -1,0 +1,33 @@
+.balance {
+    background-color: var(--clr-soft-red);
+    color: var(--clr-very-pale-orange);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 1.4rem;
+    border-radius: 1rem;
+}
+
+.balance-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    justify-content: center;
+}
+
+p {
+    font-size: 0.95rem;
+}
+
+.balance-amount {
+    font-size: 1.6rem;
+    font-weight: var(--fw-bold);
+    color: hsla(0, 0%, 100%, 0.98);
+}
+
+.balance-logo img{
+    width: 60px;
+    position: relative;
+    right: 5px;
+    top: 3px;
+}

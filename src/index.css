@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+
+:root {
+  /* Primary colors */
+  --clr-soft-red: hsl(10, 79%, 65%);
+  --clr-cyan: hsl(186, 34%, 60%);
+
+  /* Neutral colors */
+  --clr-dark-brown: hsl(25, 47%, 15%);
+  --clr-medium-brown: hsl(28, 10%, 53%);
+  --clr-cream: hsl(27, 66%, 92%);
+  --clr-very-pale-orange: hsl(33, 100%, 98%);
+
+  /* Fonts */
+  --ff-main: 'DM Sans';
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-main), sans-serif;
+  font-size: 1.125rem;
+  font-weight: var(--fw-regular);
+  background-color: var(--clr-cream);
+  color: var(--clr-medium-brown);
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+
+main {
+  display: grid;
+  gap: 1.1rem;
+  width: 90vw;
+  position: relative;
+  top: 3.1rem;
+}
+
+hr {
+  border: 0.5px solid var(--clr-soft-red);
+  background-color: transparent;
+  color: transparent;
+  width: 100%;
+  margin: 0 auto;
+  opacity: 0.15;
+  margin-top: 1.3125rem;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 426px) {
+  main {
+    width: 383px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    width: 431px;
+  }
+}
